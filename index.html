@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viktor — Frontend Developer & UI/UX Designer</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="nav">
+        <div class="container">
+            <a href="#" class="nav-logo">V<span>.</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact" class="nav-cta">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-grid"></div>
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">Available for freelance</div>
+                <h1 class="hero-name">Hi, I'm<br /><span class="grad">Viktor</span></h1>
+                <p class="hero-title">Frontend Developer &amp; UI/UX Designer</p>
+                <p class="hero-desc">I build responsive websites from Figma using modern HTML, CSS and JavaScript.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 8h10M9 4l4 4-4 4" />
+                        </svg>
+                        View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div>
+                    <div class="section-label reveal">About me</div>
+                    <h2 class="about-heading reveal d1">Code with <em>purpose</em>,<br />design with intent</h2>
+                    <p class="about-text reveal d2">I'm a <strong>frontend developer</strong> with a background in UI/UX design, specializing in building pixel-perfect, responsive websites that feel as good as they look.</p>
+                    <p class="about-text reveal d2">My workflow starts in <strong>Figma</strong> — crafting thoughtful interfaces — and ends with clean, modern code using HTML, CSS, and JavaScript. I care about the details: smooth animations, intuitive layouts, and performance that matters.</p>
+                    <div class="about-stats">
+                        <div class="reveal d3">
+                            <div class="stat-number">4+</div>
+                            <div class="stat-label">Projects completed</div>
+                        </div>
+                        <div class="reveal d3">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label">Years experience</div>
+                        </div>
+                        <div class="reveal d3">
+                            <div class="stat-number">8+</div>
+                            <div class="stat-label">Skills mastered</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal d2">
+                    <div class="about-card">
+                        <p class="about-card-title">Experience</p>
+                        <div class="exp-item">
+                            <div class="exp-dot"></div>
+                            <div>
+                                <div class="exp-role">Frontend Developer</div>
+                                <div class="exp-period">2023 — Present · Freelance</div>
+                            </div>
+                        </div>
+                        <div class="exp-item">
+                            <div class="exp-dot"></div>
+                            <div>
+                                <div class="exp-role">UI/UX Designer</div>
+                                <div class="exp-period">2022 — 2023 · Self-directed</div>
+                            </div>
+                        </div>
+                        <div class="exp-item">
+                            <div class="exp-dot"></div>
+                            <div>
+                                <div class="exp-role">HTML / CSS Foundation</div>
+                                <div class="exp-period">2021 — 2022 · Learning phase</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="projects">
+        <div class="container">
+            <div class="section-label reveal">Selected work</div>
+            <h2 class="section-heading reveal d1">Projects</h2>
+            <p class="section-sub reveal d2">A collection of websites I've designed and built — translating ideas into polished digital experiences.</p>
+            <div class="projects-grid">
+
+                <div class="project-card reveal d1">
+                    <div class="project-preview">
+                        <iframe src="https://iexplorer93.github.io/Portfolio/Metrica/" title="Metrica preview" loading="lazy" scrolling="no" tabindex="-1" aria-hidden="true"></iframe>
+                        <div class="project-overlay"></div>
+                        <div class="preview-hover">
+                            <div class="preview-icon">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#fff" stroke-width="2.2">
+                                    <path d="M5 15L15 5M15 5H8M15 5v7" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-number">01</div>
+                        <h3 class="project-title">Metrica</h3>
+                        <p class="project-desc">A clean analytics-focused website with modern layout and sharp data presentation.</p>
+                        <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+                        <a href="https://iexplorer93.github.io/Portfolio/Metrica/" class="project-link" target="_blank" rel="noopener">
+                            Live Demo <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 11L11 3M11 3H6M11 3v5" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal d2">
+                    <div class="project-preview">
+                        <iframe src="https://iexplorer93.github.io/Portfolio/NR/" title="NR preview" loading="lazy" scrolling="no" tabindex="-1" aria-hidden="true"></iframe>
+                        <div class="project-overlay"></div>
+                        <div class="preview-hover">
+                            <div class="preview-icon">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#fff" stroke-width="2.2">
+                                    <path d="M5 15L15 5M15 5H8M15 5v7" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-number">02</div>
+                        <h3 class="project-title">NR</h3>
+                        <p class="project-desc">A minimal, typographic-first website with bold visual hierarchy and refined spacing.</p>
+                        <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Figma</span></div>
+                        <a href="https://iexplorer93.github.io/Portfolio/NR/" class="project-link" target="_blank" rel="noopener">
+                            Live Demo <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 11L11 3M11 3H6M11 3v5" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal d3">
+                    <div class="project-preview">
+                        <iframe src="https://iexplorer93.github.io/Portfolio/VikkiCore-Website/" title="VikkiCore preview" loading="lazy" scrolling="no" tabindex="-1" aria-hidden="true"></iframe>
+                        <div class="project-overlay"></div>
+                        <div class="preview-hover">
+                            <div class="preview-icon">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#fff" stroke-width="2.2">
+                                    <path d="M5 15L15 5M15 5H8M15 5v7" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-number">03</div>
+                        <h3 class="project-title">VikkiCore</h3>
+                        <p class="project-desc">A personal brand website showcasing design and development skills in a sleek package.</p>
+                        <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">UI/UX</span></div>
+                        <a href="https://iexplorer93.github.io/Portfolio/VikkiCore-Website/" class="project-link" target="_blank" rel="noopener">
+                            Live Demo <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 11L11 3M11 3H6M11 3v5" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal d4">
+                    <div class="project-preview">
+                        <iframe src="https://iexplorer93.github.io/Portfolio/Dipper-Site/" title="Dipper preview" loading="lazy" scrolling="no" tabindex="-1" aria-hidden="true"></iframe>
+                        <div class="project-overlay"></div>
+                        <div class="preview-hover">
+                            <div class="preview-icon">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#fff" stroke-width="2.2">
+                                    <path d="M5 15L15 5M15 5H8M15 5v7" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-number">04</div>
+                        <h3 class="project-title">Dipper</h3>
+                        <p class="project-desc">A modern product landing page with smooth interactions and clean visual design.</p>
+                        <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+                        <a href="https://iexplorer93.github.io/Portfolio/Dipper-Site/" class="project-link" target="_blank" rel="noopener">
+                            Live Demo <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 11L11 3M11 3H6M11 3v5" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="skills">
+        <div class="container">
+            <div class="skills-wrapper">
+                <div class="skills-left">
+                    <div class="section-label reveal">What I know</div>
+                    <h2 class="section-heading reveal d1">Skills</h2>
+                    <p class="skills-desc reveal d2">Technologies and tools I use to bring ideas from design to production-ready code.</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-item reveal d1"><span class="skill-icon">🌐</span>
+                        <div class="skill-name">HTML</div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-w="0.96"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item reveal d1"><span class="skill-icon">🎨</span>
+                        <div class="skill-name">CSS</div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-w="0.93"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item reveal d2"><span class="skill-icon">⚡</span>
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-w="0.80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item reveal d2"><span class="skill-icon">🔲</span>
+                        <div class="skill-name">Flexbox</div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-w="0.95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item reveal d3"><span class="skill-icon">📐</span>
+                        <div class="skill-name">Grid</div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-w="0.91"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item reveal d3"><span class="skill-icon">📱</span>
+                        <div class="skill-name">Responsive</div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-w="0.94"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item reveal d4"><span class="skill-icon">✏️</span>
+                        <div class="skill-name">Figma</div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-w="0.88"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item reveal d4"><span class="skill-icon">🖌️</span>
+                        <div class="skill-name">UI/UX</div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-w="0.86"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="contact">
+        <div class="container">
+            <div class="contact-box reveal">
+                <div class="contact-glow"></div>
+                <div class="section-label" style="justify-content:center">Get in touch</div>
+                <h2 class="contact-heading">Let's build<br /><span>something great</span></h2>
+                <p class="contact-text">Have a project in mind? I'd love to hear about it. Let's create something together.</p>
+                <div class="contact-links">
+                    <a href="https://github.com/iexplorer93" class="c-link" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                        </svg>
+                        github.com/iexplorer93
+                    </a>
+
+                    <a href="https://t.me/iexplorer93" class="c-link" target="_blank" rel="noopener">
+                        <svg role="img" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <title>Telegram</title>
+                            <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                        </svg>
+                        t.me/iexplorer93
+                    </a>
+
+                    <a href="mailto:iexplorer93@gmail.com" class="c-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        iexplorer93@gmail.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">Viktor<span>.</span></div>
+            <p class="footer-copy">© 2025 Viktor — Built with HTML, CSS & JS</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
